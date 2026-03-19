@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main(void) {
+    int a;
+
+    printf("Введите число: ");
+    scanf("%d", &a);
+
+    if (a > 0) {
+        printf("Positive\n");
+    } else {
+        printf("Negative or zero\n");
+    }
+
+    return 0;
+}
